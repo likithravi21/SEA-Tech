@@ -16,13 +16,13 @@ export default function Footer() {
     } else {
       document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
     }
-  }
+  } 
 
   return (
     <footer className="footer">
       <div className="footer-top">
         <div className="brand">
-          <img src="public\assets\SEA-Tech-logo.png" alt="loading.." />
+          <img src="/assets/SEA-Tech-logo.png" alt="loading.." />
           <p className="footer-brand-tagline">Sustainability Meets Strategic Innovation</p>
 
         </div>
