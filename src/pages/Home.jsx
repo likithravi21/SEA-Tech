@@ -190,11 +190,11 @@ function HeroSection({ scrollTo }) {
           <div className="hero__bottom">
             <div className="hero-vision">
               <span className="vm-label">Our Vision</span>
-              <p>To strengthen national resiliance through sustainable innovation for energy, agriculture and strategic sectors. </p>
+              <p>To strengthen national resilience through sustainable innovation for energy, agriculture and strategic sectors. </p>
             </div>
             <div className="hero-mission">
               <span className="vm-label">Our Mission</span>
-              <p>We create sustainability-led technologies and systems that support environmental stewardship, energy, security, agricultural resiliance and strategic capability.</p>
+              <p>We create sustainability-led technologies and systems that support environmental stewardship, energy, security, agricultural resilience and strategic capability.</p>
             </div>
           </div>
         </div>
@@ -443,7 +443,7 @@ function ResearchDeploySection() {
           })}
         </div>
 
-        <div className="pipeline__flow">
+        {/* <div className="pipeline__flow">
           {stages.map((s, i) => (
             <div key={s.label} style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
               <span className="pipeline__flow-label">{s.label}</span>
@@ -452,7 +452,7 @@ function ResearchDeploySection() {
               )}
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   )

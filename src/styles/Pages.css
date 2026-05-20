@@ -5,10 +5,11 @@
 
 /* ── Page hero (inner) ── */
 .inner-hero {
-  padding: 110px 0 82px;
+  padding: 160px 0 82px;
   position: relative;
+  top: -11vh;
   overflow: hidden;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 /* Shared grid overlay for inner heroes */
@@ -70,7 +71,7 @@
 .inner-hero__heading {
   font-family: var(--font-head);
   font-weight: 700;
-  font-size: clamp(30px, 4.8vw, 56px);
+  font-size: clamp(30px, 6.5vw, 40px);
   color: #fff;
   line-height: 1.09;
   margin-bottom: 18px;
@@ -190,4 +191,5 @@
 
 @media (max-width: 480px) {
   .capabilities__grid { grid-template-columns: 1fr; }
+  .inner-hero         { height: fit-content; }
 }
